@@ -1,1 +1,1 @@
-# mini-quiz-piotr-banaszkiewicz
+# Aplikacja mini-Quiz
