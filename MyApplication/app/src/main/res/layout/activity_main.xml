@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <LinearLayout
+        android:id="@+id/start"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:baselineAligned="true"
@@ -24,6 +25,7 @@
             android:id="@+id/miniQuiz"
             android:layout_width="388dp"
             android:layout_height="90dp"
+            android:layout_margin="11dp"
             android:text="Mini Quiz"
             android:textAlignment="center"
             android:textSize="60sp" />
@@ -32,6 +34,7 @@
             android:id="@+id/textView2"
             android:layout_width="376dp"
             android:layout_height="25dp"
+            android:layout_margin="14dp"
             android:text="Autor - Piotr Banaszkiewicz"
             android:textAlignment="center" />
 
@@ -39,6 +42,8 @@
             android:id="@+id/button"
             android:layout_width="227dp"
             android:layout_height="62dp"
+            android:layout_margin="97dp"
+            android:lineSpacingExtra="14sp"
             android:text="Rozpocznij quiz"
             android:textAlignment="center"
             android:textSize="20sp"
