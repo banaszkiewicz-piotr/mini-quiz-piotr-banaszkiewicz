@@ -38,10 +38,41 @@
             android:text="Autor - Piotr Banaszkiewicz"
             android:textAlignment="center" />
 
+        <TextView
+            android:id="@+id/pytanie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pytanie"
+            android:textAlignment="center"
+            android:textSize="34sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="120sp"
+            android:text="odpowiedź1" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="120sp"
+            android:text="odpowiedź2" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="120sp"
+            android:text="odpowiedź3"
+            android:textAlignment="center" />
+
         <Button
             android:id="@+id/button"
             android:layout_width="227dp"
-            android:layout_height="62dp"
+            android:layout_height="59dp"
             android:layout_margin="97dp"
             android:lineSpacingExtra="14sp"
             android:text="Rozpocznij quiz"
