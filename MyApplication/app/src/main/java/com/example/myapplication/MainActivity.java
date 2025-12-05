@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
                 button3.setVisibility(VISIBLE);
                 pytanie.setVisibility(VISIBLE);
                 quiz.Losuj();
+
             }
         });
 

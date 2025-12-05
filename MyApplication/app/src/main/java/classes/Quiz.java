@@ -25,4 +25,25 @@ public class Quiz {
             }
         }
     }
+
+    public String Question(int num){
+        switch(num){
+            case 1:
+                return questions[fiveQuestions[0], 0];
+                break;
+            case 2:
+                return questions[fiveQuestions[1], 0];
+                break;
+            case 3:
+                return questions[fiveQuestions[2], 0];
+            break;
+            case 4:
+                return questions[fiveQuestions[3], 0];
+            break;
+            case 5:
+                return questions[fiveQuestions[4], 0];
+            break;
+
+        }
+    }
 }
