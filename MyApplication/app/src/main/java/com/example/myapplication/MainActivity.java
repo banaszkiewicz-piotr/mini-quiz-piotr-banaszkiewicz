@@ -44,39 +44,45 @@ public class MainActivity extends AppCompatActivity {
         for(int i = 0; i < 5; i++){
             pytanie.setText(quiz.Question(i));
             int rand = random.nextInt(3);
+            int score = 0;
             switch(rand){
                 case 1:
-                    return button1.setText(quiz.questions[0, 1]);
+                    return button1.setText(quiz.questions[i, 1]);
+                    button2.setText(quiz.wrongAnswers[i, 0]);
+                    button3.setText(quiz.wrongAnswers[i, 1]);
                     button1.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View v) {
+                            score++;
                             break;
                         }
                     }
                 break;
                 case 2:
-                    return button2.setText(quiz.questions[0, 1]);
+                    return button2.setText(quiz.questions[i, 1]);
+                    button1.setText(quiz.wrongAnswers[i, 0]);
+                    button3.setText(quiz.wrongAnswers[i, 1]);
                     button2.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View v) {
+                            score++;
                             break;
                         }
                     }
                 break;
                 case 3:
-                    return button3.setText(quiz.questions[0, 1]);
+                    return button3.setText(quiz.questions[i, 1]);
+                    button2.setText(quiz.wrongAnswers[i, 0]);
+                    button1.setText(quiz.wrongAnswers[i, 1]);
                     button3.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View v) {
+                            score++;
                             break;
                         }
                     }
                 break;
             }
         }
-
-
-
-
     }
 }
