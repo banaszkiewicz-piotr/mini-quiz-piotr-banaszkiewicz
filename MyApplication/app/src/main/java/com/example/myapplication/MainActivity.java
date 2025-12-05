@@ -84,5 +84,10 @@ public class MainActivity extends AppCompatActivity {
                 break;
             }
         }
+        button1.setVisibility(INVISIBLE);
+        button2.setVisibility(INVISIBLE);
+        button3.setVisibility(INVISIBLE);
+        btnStart.setVisibility(VISIBLE);
+        pytanie.setText("Twój wynik: " + score);
     }
 }
